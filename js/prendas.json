@@ -1,0 +1,165 @@
+[
+
+{
+    "id":"1",
+   "nombre":"Remera Oversize Negra",
+    "precio":25000,
+    "categoria":"Remeras",
+    "imagen":"/Assets/img/remeras/remeraOvNegra.png"
+
+},
+{
+    "id":"2",
+   "nombre":"Remera Oversize Roja",
+    "precio":25000,
+    "categoria":"Remeras",
+    "imagen":"/Assets/img/remeras/remeraOvRoja.jpg"
+
+},
+{
+    "id":"3",
+   "nombre":"Remera Oversize Beige",
+    "precio":25000,
+    "categoria":"Remeras",
+    "imagen":"/Assets/img/remeras/remeraOvBeige.webp"
+
+},
+{
+    "id":"4",
+   "nombre":"Remera Oversize Estampada",
+    "precio":30000,
+    "categoria":"Remeras",
+    "imagen":"/Assets/img/remeras/remeraOvEstampa.jpg"
+
+},
+{
+    "id":"5",
+   "nombre":"Jean Roto Recto",
+    "precio":60000,
+    "categoria":"Pantalones",
+    "imagen":"/Assets/img/pantalones/jeanRotoRecto.webp"
+
+},
+{
+    "id":"6",
+   "nombre":"Jogger Negro",
+    "precio":45000,
+    "categoria":"Pantalones",
+    "imagen":"/Assets/img/pantalones/joggerNegro.webp"
+
+},
+{
+    "id":"7",
+   "nombre":"Jean Recto Negro",
+    "precio":50000,
+    "categoria":"Pantalones",
+    "imagen":"/Assets/img/pantalones/jeanNegroRecto.webp"
+
+},
+{
+    "id":"8",
+   "nombre":"Pantalon Cargo",
+    "precio":47000,
+    "categoria":"Pantalones",
+    "imagen":"/Assets/img/pantalones/pantalonCargo.jpg"
+
+},
+{
+    "id":"9",
+   "nombre":"Bermuda Cargo",
+    "precio":40000,
+    "categoria":"Bermudas",
+    "imagen":"/Assets/img/bermudas/bermudaCargo.webp"
+
+},
+{
+    "id":"10",
+   "nombre":"Bermuda de Jean Rota",
+    "precio":30000,
+    "categoria":"Bermudas",
+    "imagen":"/Assets/img/bermudas/bermudaDeJeanRota.webp"
+
+},
+{
+    "id":"11",
+   "nombre":"Bermuda Negra",
+    "precio":40000,
+    "categoria":"Bermudas",
+    "imagen":"/Assets/img/bermudas/bermudaNegra.jpg"
+
+},
+{
+    "id":"12",
+   "nombre":"Bermuda de jean",
+    "precio":45000,
+    "categoria":"Bermudas",
+    "imagen":"/Assets/img/bermudas/bermudaJean.webp"
+
+},
+{
+    "id":"13",
+   "nombre":"Nike Air Force 07 White",
+    "precio":180000,
+    "categoria":"Zapatillas",
+    "imagen":"/Assets/img/zapatillas/AirForce07.png"
+
+},
+{
+    "id":"14",
+   "nombre":"Adidas Yeezy 350",
+    "precio":250000,
+    "categoria":"Zapatillas",
+    "imagen":"/Assets/img/zapatillas/Yeezy 350.jpg"
+
+},
+{
+    "id":"15",
+   "nombre":"Nike Dunk Low Panda",
+    "precio":220000,
+    "categoria":"Zapatillas",
+    "imagen":"/Assets/img/zapatillas/dunkPanda.jpg"
+
+},
+{
+    "id":"16",
+   "nombre":"Nike Blazer Mid",
+    "precio":150000,
+    "categoria":"Zapatillas",
+    "imagen":"/Assets/img/zapatillas/blazerMid.jpg"
+
+},
+{
+    "id":"17",
+   "nombre":"Boxer Negro",
+    "precio":7000,
+    "categoria":"Accesorios",
+    "imagen":"/Assets/img/accesorios/boxer negro.jpg"
+
+},
+{
+    "id":"18",
+   "nombre":"Boxer Azul Marino",
+    "precio":7000,
+    "categoria":"Accesorios",
+    "imagen":"/Assets/img/accesorios/boxerAzulMarino.webp"
+
+},
+{
+    "id":"19",
+   "nombre":"Piluso Supreme",
+    "precio":15000,
+    "categoria":"Accesorios",
+    "imagen":"/Assets/img/accesorios/pilusoSupreme.jpg"
+
+},
+{
+    "id":"20",
+   "nombre":"Medias Supreme",
+    "precio":10000,
+    "categoria":"Accesorios",
+    "imagen":"/Assets/img/accesorios/mediasSupreme.jpg"
+
+}
+
+
+]
