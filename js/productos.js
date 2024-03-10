@@ -1,6 +1,6 @@
 let prendas=[]
 
-fetch("/js/prendas.json")
+fetch("../js/prendas.json")
     .then(response => response.json())
     .then(data => {
         prendas = data
