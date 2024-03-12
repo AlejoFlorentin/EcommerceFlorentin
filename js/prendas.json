@@ -5,7 +5,7 @@
    "nombre":"Remera Oversize Negra",
     "precio":25000,
     "categoria":"Remeras",
-    "imagen":"./Assets/img/remeras/remeraOvNegra.png"
+    "imagen":"./img/remeras/remeraOvNegra.png"
 
 },
 {
@@ -13,7 +13,7 @@
    "nombre":"Remera Oversize Roja",
     "precio":25000,
     "categoria":"Remeras",
-    "imagen":"./Assets/img/remeras/remeraOvRoja.jpg"
+    "imagen":"./img/remeras/remeraOvRoja.jpg"
 
 },
 {
@@ -21,7 +21,7 @@
    "nombre":"Remera Oversize Beige",
     "precio":25000,
     "categoria":"Remeras",
-    "imagen":"./Assets/img/remeras/remeraOvBeige.webp"
+    "imagen":"./img/remeras/remeraOvBeige.webp"
 
 },
 {
@@ -29,7 +29,7 @@
    "nombre":"Remera Oversize Estampada",
     "precio":30000,
     "categoria":"Remeras",
-    "imagen":"./Assets/img/remeras/remeraOvEstampa.jpg"
+    "imagen":"./img/remeras/remeraOvEstampa.jpg"
 
 },
 {
@@ -37,7 +37,7 @@
    "nombre":"Jean Roto Recto",
     "precio":60000,
     "categoria":"Pantalones",
-    "imagen":"./Assets/img/pantalones/jeanRotoRecto.webp"
+    "imagen":"./img/pantalones/jeanRotoRecto.webp"
 
 },
 {
@@ -45,7 +45,7 @@
    "nombre":"Jogger Negro",
     "precio":45000,
     "categoria":"Pantalones",
-    "imagen":"./Assets/img/pantalones/joggerNegro.webp"
+    "imagen":"./img/pantalones/joggerNegro.webp"
 
 },
 {
@@ -53,7 +53,7 @@
    "nombre":"Jean Recto Negro",
     "precio":50000,
     "categoria":"Pantalones",
-    "imagen":"./Assets/img/pantalones/jeanNegroRecto.webp"
+    "imagen":"./img/pantalones/jeanNegroRecto.webp"
 
 },
 {
@@ -61,7 +61,7 @@
    "nombre":"Pantalon Cargo",
     "precio":47000,
     "categoria":"Pantalones",
-    "imagen":"./Assets/img/pantalones/pantalonCargo.jpg"
+    "imagen":"./img/pantalones/pantalonCargo.jpg"
 
 },
 {
@@ -69,7 +69,7 @@
    "nombre":"Bermuda Cargo",
     "precio":40000,
     "categoria":"Bermudas",
-    "imagen":"./Assets/img/bermudas/bermudaCargo.webp"
+    "imagen":"./img/bermudas/bermudaCargo.webp"
 
 },
 {
@@ -77,7 +77,7 @@
    "nombre":"Bermuda de Jean Rota",
     "precio":30000,
     "categoria":"Bermudas",
-    "imagen":"./Assets/img/bermudas/bermudaDeJeanRota.webp"
+    "imagen":"./img/bermudas/bermudaDeJeanRota.webp"
 
 },
 {
@@ -85,7 +85,7 @@
    "nombre":"Bermuda Negra",
     "precio":40000,
     "categoria":"Bermudas",
-    "imagen":"./Assets/img/bermudas/bermudaNegra.jpg"
+    "imagen":"./img/bermudas/bermudaNegra.jpg"
 
 },
 {
@@ -93,7 +93,7 @@
    "nombre":"Bermuda de jean",
     "precio":45000,
     "categoria":"Bermudas",
-    "imagen":"./Assets/img/bermudas/bermudaJean.webp"
+    "imagen":"./img/bermudas/bermudaJean.webp"
 
 },
 {
@@ -101,7 +101,7 @@
    "nombre":"Nike Air Force 07 White",
     "precio":180000,
     "categoria":"Zapatillas",
-    "imagen":"./Assets/img/zapatillas/AirForce07.png"
+    "imagen":"./img/zapatillas/AirForce07.png"
 
 },
 {
@@ -109,7 +109,7 @@
    "nombre":"Adidas Yeezy 350",
     "precio":250000,
     "categoria":"Zapatillas",
-    "imagen":"./Assets/img/zapatillas/Yeezy 350.jpg"
+    "imagen":"./img/zapatillas/Yeezy 350.jpg"
 
 },
 {
@@ -117,7 +117,7 @@
    "nombre":"Nike Dunk Low Panda",
     "precio":220000,
     "categoria":"Zapatillas",
-    "imagen":"./Assets/img/zapatillas/dunkPanda.jpg"
+    "imagen":"./img/zapatillas/dunkPanda.jpg"
 
 },
 {
@@ -125,7 +125,7 @@
    "nombre":"Nike Blazer Mid",
     "precio":150000,
     "categoria":"Zapatillas",
-    "imagen":"./Assets/img/zapatillas/blazerMid.jpg"
+    "imagen":"./img/zapatillas/blazerMid.jpg"
 
 },
 {
@@ -133,7 +133,7 @@
    "nombre":"Boxer Negro",
     "precio":7000,
     "categoria":"Accesorios",
-    "imagen":"./Assets/img/accesorios/boxer negro.jpg"
+    "imagen":"./img/accesorios/boxer negro.jpg"
 
 },
 {
@@ -141,7 +141,7 @@
    "nombre":"Boxer Azul Marino",
     "precio":7000,
     "categoria":"Accesorios",
-    "imagen":"./Assets/img/accesorios/boxerAzulMarino.webp"
+    "imagen":"./img/accesorios/boxerAzulMarino.webp"
 
 },
 {
@@ -149,7 +149,7 @@
    "nombre":"Piluso Supreme",
     "precio":15000,
     "categoria":"Accesorios",
-    "imagen":"./Assets/img/accesorios/pilusoSupreme.jpg"
+    "imagen":"./img/accesorios/pilusoSupreme.jpg"
 
 },
 {
@@ -157,7 +157,7 @@
    "nombre":"Medias Supreme",
     "precio":10000,
     "categoria":"Accesorios",
-    "imagen":"./Assets/img/accesorios/mediasSupreme.jpg"
+    "imagen":"./img/accesorios/mediasSupreme.jpg"
 
 }
 
