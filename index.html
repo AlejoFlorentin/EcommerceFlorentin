@@ -8,108 +8,319 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./css/superlative.css">
-    <link rel="shortcut icon" href="./img/logo-2.svg" type="image/xml-svg">
+    <link rel="shortcut icon" href="./Assets/img/logo-2.svg" type="image/xml-svg">
 
+    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    
-    <title>Productos</title>
+
+    <title>Superlative</title>
 
 </head>
 
-<body>
-
-    <div class="layout">
-
-       
-        <aside>
-
-            <div class="logoProductosContainer">
-
-                <a href=""><img class="logoProductos" src="./img/logo-2.svg" alt="superlative_logo"></a>
-                <h3>Superlative</h3>
-
-            </div>
-
-            <nav>
-
-                <ul class="menu">
-
-                    <li>
-                        <button id="todos" class="botonMenu botonCategoria active">Todos los productos</button>
-                    </li>
-
-                    <li>
-                        <button  id="Remeras" class="botonMenu botonCategoria">Remeras</button>
-                    </li>
-
-                    <li>
-                        <button id="Pantalones" class="botonMenu botonCategoria">Pantalones</button>
-                    </li>
-
-                    <li>
-                        <button id="Bermudas" class="botonMenu botonCategoria">Bermudas</button>
-                    </li>
-
-                    <li>
-                        <button id="Zapatillas" class="botonMenu botonCategoria">Zapatillas</button>
-                    </li>
 
 
-                    <li>
-                        <button id="Accesorios" class="botonMenu botonCategoria">Accesorios</button>
-                    </li>
+    <header>
+
+        <div class="logo-container">
+
+            <a href="./index.html"><img class="logo" src="./Assets/img/logos/logo-2.svg" alt="superlative_logo"></a>
+
+            <h1>Superlative</h1>
+
+        </div>
+
+        <nav>
+
+            <ul class="nav-bar">
+
+                <li class="nav-item"><a href="./pages/productos.html">Productos</a></li>
+
+                <li class="nav-item"><a href="./pages/new.html">New In</a></li>
+
+                <li class="nav-item"><a href="./pages/contacto.html">Contacto</a></li>
+
+                <li class="nav-item"><a href="./pages/carrito.html">Carrito</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
 
 
 
+    <main class="main-index">
 
-                    <li>
-                        <a class="botonMenu botonCarrito" href="./carrito.html">
-                            <i class='bx bxs-cart'></i> Carrito <span id="numerito" class="numerito">0</span>
-                        </a>
-                    </li>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
 
-                </ul>
+            <div class="carousel-inner">
 
-            </nav>
+                <div class="carousel-item active ">
 
-            <section class="copyrightProd">
-            
-                <p>© Copyright SUPERLATIVE - 2023</p>
-                <P>Todos los derechos reservados.</P>
-            
-                <a href="https://servicioscf.afip.gob.ar/publico/denuncias/denunciaCD.aspx"><img src="./img/fiscal.png"
-                        alt="data_fiscal"></a>
-            
-            </section>
-          
+                    <img src="./Assets/img/logos/oferta.png" class="d-block w-100" alt="oferta-navidad">
 
-        </aside>
+                </div>
 
-        <main class="mainProd">
-
-            <h2 class="tituloPrincipal" id="tituloPrincipal">Todos los productos</h2>
-            <div id="contenedorProductos" class="contenedorProductos">
+                <div class="carousel-item active ">
+                
+                    <img src="./Assets/img/logos/spring session.webp" class="d-block w-100" alt="session-primavera">
+                
+                </div>
 
             </div>
 
-        </main>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
 
-    </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
 
+        </div>
+
+        <section class="ofertas">
+
+            <h2>Ofertas</h2>
+
+            <div class="ofertas-container">
+
+            <article class="productos">
+
+                <a href="./pages/productos.html">
+
+                <img src="./Assets/img/pantalones/lompa.webp" alt="Remera Oversize">
+                
+                <div class="precio">
+
+                <p>Pantalon negro</p>
+                <s>$ 20.000</s>
+                <h5> $ 18.000</h5>
+                <p>12% OFF</p>
+                <P>en 3x $ 6.000</P>
+
+                </div>   
+
+                </a>
+                
+            </article>
+
+            <article class="productos">
+
+                <a href="./pages/productos.html">
+
+                <img src="./Assets/img/pantalones/cargo2.jpg" alt="cargo">
+                
+                <div class="precio">
+
+                <p>Pantalon Cargo</p>
+                <s>$ 20.000</s>
+                <h5> $ 18.000</h5>
+                <p>12% OFF</p>
+                <P>en 3x $ 6.000</P>   
+
+                </div>  
+
+                </a>
+            
+            </article>
+
+            <article class="productos">
+
+                <a href="./pages/productos.html">
+
+                <img src="./Assets/img/accesorios/calzon.webp" alt="Boxer">
+
+                <div class="precio">
+
+                <p>Boxer</p>
+                <s>$ 20.000</s>
+                <h5> $ 18.000</h5>
+                <p>12% OFF</p>
+                <P>en 3x $ 6.000</P>
+
+                </div>   
+
+                </a>
+            
+            </article>
+
+            <article class="productos">
+
+                <a href="./pages/productos.html">
+
+                <img src="./Assets/img/bermudas/bermuda mom.webp" alt="bermuda_mom">
+                
+                <div class="precio">
+                
+                <p>Bermuda Mom</p>
+                <s>$ 20.000</s>
+                <h5> $ 18.000</h5>
+                <p>12% OFF</p>
+                <P>en 3x $ 6.000</P>
+                
+                </div>   
+                
+                </a>
+            
+            </article>
+
+            <article class="productos">
+
+                <a href="./pages/productos.html">
+
+                <img src="./Assets/img/bermudas/bermuda.webp" alt="bermuda_cargo">
+
+                <div class="precio">
+                
+                <p>Bermuda cargo</p>
+                <s>$ 20.000</s>
+                <h5> $ 18.000</h5>
+                <p>12% OFF</p>
+                <P>en 3x $ 6.000</P>
+                
+                </div>   
+
+                </a>
+            
+            </article>  
+
+            </div>
+
+        </section>
+
+        <section class="articulos">
+
+                <h2>Explora nuestros estilos</h2>
+
+                <div class="articulos-container">
+
+                    <a href="./pages/productos.html">
+
+                    <article class="indumentarias">
+
+                        <h4>Remeras</h4>
+                        <img src="./Assets/img/remeras/remeras.webp" alt="">
+
+                    </article>    
+
+                    </a>
+
+                    
+
+                    <a href="./pages/productos.html">
+
+                    <article class="indumentarias">
+
+                        <h4>Pantalones</h4>
+                        <img src="./Assets/img/pantalones/pantalones.jpg" alt="">
+
+                    </article>
+
+                    </a>
+
+                    
+
+                    <a href="./pages/productos.html">
+
+                    <article class="indumentarias">
+
+                        <h4>Bermudas</h4>
+                        <img src="./Assets/img/bermudas/bermuda.webp" alt="">
+
+                    </article>
+
+                    </a>
+
+                    
+
+                    <a href="./pages/productos.html">
+
+                    <article class="indumentarias">
+
+                        <h4>Zapatillas</h4>
+                        <img src="./Assets/img/zapatillas/zapatillas.jpeg" alt="">
+
+                    </article>
+
+                    </a>
+
+                    
+
+                    <a href="./pages/productos.html">
+
+                    <article class="indumentarias">
+                    
+                        <h4>Accesorios</h4>
+                        <img src="./Assets/img/accesorios/accesorios.webp" alt="">
+                    
+                    </article> 
+
+                    </a>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        <section class="redes">
+
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i>  superlative_</a>
+
+            <a href="https://www.facebook.com/?locale=es_LA"><i class='bx bxl-facebook'></i>  suplerlative2023</a>
+
+            <a href="https://www.tiktok.com/es/"><i class='bx bxl-tiktok'></i>  superlativestyle_</a>
+
+        </section>
+
+        <section class="copyright">
+
+            <p>© Copyright SUPERLATIVE - 2023</p>
+            <P>Todos los derechos reservados.</P>
+
+            <a href="https://servicioscf.afip.gob.ar/publico/denuncias/denunciaCD.aspx"><img src="./Assets/img/logos/fiscal.png" alt="data_fiscal"></a>
+
+        </section>
+
+        <section class="medio-container">
+
+            <h2>Medios de Pago</h2>
+
+            <div class="medios">
+
+                <h3><i class='bx bxl-visa'></i></h3>
+                <h3><i class='bx bxl-mastercard'></i></h3>
+                <h3><i class='bx bx-money'></i></h3>
+ 
+            </div>
+
+        </section>
+
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    
    
-    
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="./js/productos.js"></script>
-    
-    
-    
 
-   
+    
 </body>
 
 </html>
