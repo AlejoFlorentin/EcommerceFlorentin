@@ -75,7 +75,7 @@
     .nav-bar{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         
         
     }
@@ -102,6 +102,12 @@
     }
 
     /*INDEX*/
+
+    .asideMobileIndex{
+        display: none;
+    }
+
+   
 
     .main-index{
         flex: 1;
@@ -208,9 +214,9 @@
 
     /*PRODUCTOS*/
 
-    
-
-   
+    .headerMobile{
+        display: none;
+    }
 
     .layout{
         display:grid;
@@ -378,6 +384,11 @@
         height: 70px;
     }
 
+    .closeMenu{
+        display: none;
+    }
+    
+
 
     
 
@@ -480,11 +491,7 @@
 
     
 
-    /*NEW IN*/
 
-    .main-newin{
-        flex: 1;
-    }
     
     /*FOOTER*/
 
@@ -494,21 +501,20 @@
         height: 250px;
         background-color:black;
         width: 100%;
-        display: grid;
-        justify-content:center;
-        grid-template-columns: repeat(3,auto);
-        column-gap: 500px;
+        display: flex;
+        justify-content:space-between;
         
-
     }
 
-    footer .redes{
+    .redes{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: center;
         color: white;
         font-family: 'Bebas Neue', sans-serif;
+        margin-left: 100px;
+        margin-top: 75px;
+        height: 50%;
        
     }
  
@@ -519,13 +525,15 @@
         font-family: 'Bebas Neue', sans-serif;
     }
 
-    footer .copyright{
+    .copyright{
         font-family: 'Bebas Neue', sans-serif;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         color: white;
+        height: 50%;
+        margin-top: 75px;
         
         
     }
@@ -536,14 +544,17 @@
     }
 
 
-    footer .medio-container{
+    .medio-container{
         color: white;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-family: 'Bebas Neue', sans-serif;
-
+        margin-right: 100px;
+        margin-top: 75px;
+        height: 50%;
+        
     }
 
     footer .medio-container .medios{
@@ -561,6 +572,214 @@
 .disabled{
     display: none;
 }
+
+header nav #check_menu {
+    display: none;
+}
+
+header nav label {
+    display: none;
+}
+
+/*Media queries*/
+
+
+
+@media (max-width:600px){
+
+    /*Carrito y Productos*/
+.layout{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.logoMobile{
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+
+
+.closeMenu{
+    display: block;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    
+}
+
+
+
+aside{
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+    left:0;
+    box-shadow: 0 0 0 100vmax rgba(0,0,0, .75);
+    transform: translateX(-100%);
+    opacity: 0;
+    visibility: hidden;
+    
+    
+}
+
+.asideVisible{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.mainProd{
+    
+    margin: 2rem;
+    margin-top: 100px;
+    padding: 1rem;
+    
+    
+    
+}
+
+.contenedorProductos {
+    
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1.5rem;
+    margin-left: 20px;
+    
+    
+    
+
+}
+
+
+.productoInfo{
+    width: 200px;
+}
+
+.productoImagen{
+    width: 200px;
+    height: 250px;
+}
+
+.headerMobile{
+    display: flex;
+    margin-top: 0;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+.headerMobile li{
+    margin-bottom: 65px;
+    margin-left: 150px;
+}
+
+.numerito{
+    padding: 0.5rem;
+    height: 20px;
+    width: 17px;
+    padding-top: 1px;
+    padding-left: 1px;
+    font-size: 15px;
+    
+}
+
+.botonCarrito{
+    font-size: 30px;
+}
+
+.openMenu{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    margin-right: 30px;
+}
+
+.menu .li-carrito{
+    display: none;
+}
+
+/*INDEX*/
+
+ header nav label {
+     display: block;
+ }
+
+ header nav .nav-bar {
+     display: none;
+ }
+
+ header nav #check_menu:checked~.nav-bar {
+     background: black;
+     width: 100%;
+     height: 100vh;
+     position: absolute;
+     left: 400px;
+     top: 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     align-items: start;
+     margin-top: 50px;
+     
+ }
+
+
+ header nav #check_menu:checked~.nav-bar .nav-item {
+     margin: 50px;
+ }
+
+.bx-menu{
+    font-size: 40px;
+    margin-left: 50px;
+    color: white;
+ }
+
+ .articulos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+ }
+
+ .indumentarias img{
+    height: 400px;
+    width: 400px;
+    
+    
+ }
+
+ .copyright{
+    margin-right: 100px;
+ }
+
+.medio-container{
+    display: none;
+}
+
+.logoProductos{
+    height: 50px;
+}
+
+
+
+
+
+}
+
+
+
+
+
 
 
        

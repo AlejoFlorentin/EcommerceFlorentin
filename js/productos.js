@@ -156,6 +156,7 @@ function agregarAlCarrito(e){
     }
     
     actualizarNumerito()
+    actualizarNumeritoMobile()
 
     localStorage.setItem("prendasCarrito",JSON.stringify(carrito))//h)Guardamos todos los productos agregados en la localStorage
 
